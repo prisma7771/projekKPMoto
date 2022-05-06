@@ -16,13 +16,15 @@ This Project is created as final project for our KP in Tapanuli Motor
 - Code Editor/IDE (We Recommended using VSC)
 
 ## How To Use
-- git clone this repository (for now this branch, using "$ git clone -b baru https://github.com/prisma7771/ProjekKP.git")
+- git clone this repository 
 - run $ composer install
 - run $ php artisan key:generate
 - run mysql server using xampp (or any mysql database server you use)
+- change in .env DB_PORT into your port configuration for mysql (usually 3306), because i use port 3310
 - create database(you don`t need  to create any tableinside  it, laravel will make it for you)
 - setting .env with your database setting
 - run $ php artisan migrate:fresh --seed to have data dummy in database, else just run without --seed
-- run $ php artisan server
+- run $ php artisan storage:link
+- run $ php artisan serve
 
-# (THIS PROJECT IS NOT FINISHED YET)
+# (NEED STYLING TO MAKE IT LOOK BETTER)
