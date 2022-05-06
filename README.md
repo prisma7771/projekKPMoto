@@ -26,5 +26,6 @@ This Project is created as final project for our KP in Tapanuli Motor
 - run $ php artisan migrate:fresh --seed to have data dummy in database, else just run without --seed
 - run $ php artisan storage:link
 - run $ php artisan serve
+- nb: if you register inside web, you will accounted as comon_user, for admin, please add it manually for security
 
 # (NEED STYLING TO MAKE IT LOOK BETTER)
