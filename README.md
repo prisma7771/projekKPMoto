@@ -20,12 +20,12 @@ This Project is created as final project for our KP in Tapanuli Motor
 - run $ composer install
 - run $ php artisan key:generate
 - run mysql server using xampp (or any mysql database server you use)
-- change in .env DB_PORT into your port configuration for mysql (usually 3306), because i use port 3310
+- change in .env DB_PORT into your port configuration for mysql (usually 3306), because i use port 3310 (if your port blocked by firewall, you can use this port)
 - create database(you don`t need  to create any tableinside  it, laravel will make it for you)
 - setting .env with your database setting
 - run $ php artisan migrate:fresh --seed to have data dummy in database, else just run without --seed
 - run $ php artisan storage:link
 - run $ php artisan serve
-- nb: if you register inside web, you will accounted as comon_user, for admin, please add it manually for security
+- nb: if you register inside web, you will addedd as comon_user, for admin, please add it manually for security
 
 # (NEED STYLING TO MAKE IT LOOK BETTER)
