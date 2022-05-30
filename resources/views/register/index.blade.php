@@ -6,7 +6,7 @@
   <div class="col-lg-5">
 
     {{-- Form Register --}}
-    <div class="container border border-dark border-1 rounded-2 bg-light" style="height: 450px;">
+    <div class="container border border-dark border-1 rounded-2 bg-light bg-opacity-75" style="height: 600px;">
     <main class="form-registration">
       <h1 class="h3 mb-3 fw-normal text-center my-3">Register</h1>
       <form action="/register" method="post" class="mt-5">

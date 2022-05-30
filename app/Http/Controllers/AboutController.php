@@ -11,8 +11,8 @@ class AboutController extends Controller
         "title" => "About",
         "active" => "about",
         "name" => "PT TAPANULI MOTOR",
-        "email" => "xxx@gmail.com",
-        "image" => "keera.jpg"
+        "email" => "tapanuli.motorjaya@gmail.com",
+        "image" => "TM.jpg"
     ]);
     }
 }

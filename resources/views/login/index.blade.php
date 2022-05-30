@@ -23,7 +23,7 @@
     @endif
 
     {{-- Form Login --}}
-    <div class="container border border-dark border-1 rounded-2 bg-light" style="height: 350px;">
+    <div class="container border border-dark border-1 rounded-2 bg-light bg-opacity-75" style="height: 350px;">
     <main class="form-signin">
       <h1 class="h3 mb-3 fw-normal text-center my-3">Please Login</h1>
       <form action="/login" method="post" class="mt-5">
